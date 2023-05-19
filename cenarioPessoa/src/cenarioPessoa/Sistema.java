@@ -2,7 +2,10 @@ package cenarioPessoa;
 
 public class Sistema {
 	public static void main(String[] args) {
-		Pessoa joao = new Pessoa("João", 30, 1.80);
+		Pessoa joao = new Pessoa("Nenhum", 0, 0);
+		joao.setNomePessoa("João");
+		joao.setIdadePessoa(30);
+		joao.setAlturaPessoa(1.80);
 		
 		System.out.println(
 		  "Nome: "   + joao.getNomePessoa() +
